@@ -12,7 +12,7 @@ def find_min_in_nested_arrays(src)
         
       end
       element_index += 1 
-      new_array.push(src[row_index][element_index])
+      new_array.push(lowest_value)
     end
     row_index += 1 
   end
